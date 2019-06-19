@@ -85,6 +85,17 @@ P.P.S The target Dataframe was cached to isolate the I/O performance.
 |    read   |   avg  |    91.0    |
 |    read   |   max  |    95.4    |
 
+**Alluxio - MUST_CACHE - METADATA load disabled**
+
+| Operation | Metric | Time (sec) |
+|:---------:|:------:|:----------:|
+|   write   |   min  |    44.6    |
+|   write   |   avg  |    45.6    |
+|   write   |   max  |    47.8    |
+|    read   |   min  |    80.3    |
+|    read   |   avg  |    83.7    |
+|    read   |   max  |    93.1    |
+
 **EMRFS**
 
 | Operation | Metric | Time (sec) |
